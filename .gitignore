@@ -1,2 +1,3 @@
 check_log.txt
 .venv/ 
+.env
