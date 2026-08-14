@@ -1,0 +1,8 @@
+services:
+  health-check:
+    build: .
+    env_file:
+      - .env  
+
+    volumes:
+      - .:/app
